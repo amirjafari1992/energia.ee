@@ -1,4 +1,4 @@
-# MERN stack shopping cart
+# MERN stack assignment
 
 <img src="https://www.changepartners.ee/wp-content/themes/yootheme/cache/1200px-Eesti_Energia_logo.svg-278ad05d.png"/>
 
@@ -21,7 +21,7 @@ You can get and view the list of all products from the API, register, add produc
 * Bootstrap
 * Prettier
 * Axios
-* SASS
+* SASS - BEMIT standard
 * JOI-browser (for validation)
 * JWT
 
@@ -80,3 +80,22 @@ $ npm run api
 $ npm start
 ```
 7. API now running on ```localhost:5000``` and App running on ```localhost:3000``` (usually)
+
+## TODOs
+- [x] Readme
+- [x] Prettier
+#### Back-end
+- [x] Create Rest-API
+- [x] DATABASE
+- [x] Model for orders, users, products
+- [x] DB sources for MONGODB
+- [x] Get Controllers
+- [x] Authentication with JWT
+- [] Saving the orders on DB
+- [] Test
+#### Front-end
+- [x] State managing
+- [x] Validation
+- [x] Hooks
+- [x] Responsive
+- [x] Test only for reducer
