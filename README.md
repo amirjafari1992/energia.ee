@@ -47,7 +47,11 @@ You can get and view the list of all products from the API, register, add produc
 | --|---|---|
 | 1 | demo | 1234 
 
+### Orders
 
+| id | username | user_id | items |
+| --|---|---|---|
+| 1 | demo | 5fc8cbd9e125c9307af3442f | [{...}] 
 
 ## Installation and Usage
 
