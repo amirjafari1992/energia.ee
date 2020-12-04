@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Loading from './common/loading'
 import { Link } from 'react-router-dom'
 import { isAuthenticated } from '../repository'
@@ -9,6 +9,7 @@ import {
 } from '../actions/itemsActions'
 
 const Header = props => {
+    const [isMenuActive, setIsMenuActive] = useState(false)
     const { basket_count, loading } = props
 
     const logOut = () => {
@@ -41,11 +42,14 @@ const Header = props => {
                         aria-controls="navbarNavAltMarkup"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        onClick={() => setIsMenuActive(!isMenuActive)}
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div
-                        className="collapse navbar-collapse"
+                        className={`${
+                            isMenuActive ? '' : 'collapse'
+                        } navbar-collapse`}
                         id="navbarNavAltMarkup"
                     >
                         <div className="navbar-nav">
