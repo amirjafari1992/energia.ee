@@ -87,7 +87,7 @@ $ npm start
 - [x] Prettier
 #### Back-end
 - [x] Create Rest-API
-- [x] DATABASE
+- [x] Database
 - [x] Model for orders, users, products
 - [x] DB sources for MONGODB
 - [x] Get Controllers
