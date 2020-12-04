@@ -91,11 +91,12 @@ $ npm start
 - [x] DB sources for MONGODB
 - [x] Get Controllers
 - [x] Authentication with JWT
-- [] Saving the orders on DB
-- [] Test
+- [ ] Saving the orders on DB
+- [ ] Test
 #### Front-end
 - [x] State managing
 - [x] Validation
 - [x] Hooks
 - [x] Responsive
 - [x] Test only for reducer
+- [ ] Design
