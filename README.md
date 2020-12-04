@@ -31,6 +31,24 @@ You can get and view the list of all products from the API, register, add produc
 * MongoDB/Mongoose
 * JWT
 
+## Database design
+
+### Products
+
+| id | name | price | available_quantity | is_donation | description
+| --|---|---|---|---|---|
+| 1 | Brownie | 0.65 | 48 | false | text...
+| 2 | Muffin | 1 | 36 | false | text...
+| 3 | Jacket | 4 | 30 | true | text...
+
+### Users
+
+| id | name | password |
+| --|---|---|
+| 1 | demo | 1234 
+
+
+
 ## Installation and Usage
 
 ### Requirements:
