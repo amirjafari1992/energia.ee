@@ -1,4 +1,5 @@
-# MERN stack assignment
+# Assignment
+Author: Amir Jafari <jafari.work@gmail.com>
 
 <img src="https://www.changepartners.ee/wp-content/themes/yootheme/cache/1200px-Eesti_Energia_logo.svg-278ad05d.png"/>
 
@@ -69,7 +70,7 @@ $ git clone https://github.com/amirjafari1992/energia.ee.git
 $ cd energia.ee
 $ npm install
 ```
-3. If you had any error please remove package-lock.json and run "npm i" again:
+> If you had any error please remove package-lock.json and run `npm i` again:
 
 4. Running the API:
 ```
