@@ -70,7 +70,7 @@ $ git clone https://github.com/amirjafari1992/energia.ee.git
 $ cd energia.ee
 $ npm install
 ```
-> If you had any error please remove package-lock.json and run `npm i` again:
+> If you had any error please remove package-lock.json and run `npm i` again.
 
 4. Running the API:
 ```
