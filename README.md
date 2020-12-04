@@ -101,4 +101,5 @@ $ npm start
 - [x] Hooks
 - [x] Responsive
 - [x] Test only for reducer
+- [x] Authentication
 - [ ] Design
