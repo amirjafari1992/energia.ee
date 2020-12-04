@@ -82,6 +82,7 @@ $ npm start
 7. API now running on ```localhost:5000``` and App running on ```localhost:3000``` (usually)
 
 ## TODOs
+#### General
 - [x] Readme
 - [x] Prettier
 #### Back-end
