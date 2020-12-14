@@ -1,8 +1,6 @@
 # Assignment
 Author: Amir Jafari <jafari.work@gmail.com>
 
-<img src="https://www.changepartners.ee/wp-content/themes/yootheme/cache/1200px-Eesti_Energia_logo.svg-278ad05d.png"/>
-
 ## Description
 
 Shopping cart app build with MERN stack and using RESTful API design. Responsive front-end design done with Bootstrap, JWT used for authentication, database hosted on MongoDB ATLAS.
